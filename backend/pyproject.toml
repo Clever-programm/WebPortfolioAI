@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "portfolio-backend"
+version = "0.1.0"
+description = "FastAPI backend for portfolio website"
+authors = ["Jane Doe <jane.doe@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+pyyaml = "^6.0.1"
+weasyprint = "^62.1"
+pydyf = "<0.12.0"
+jinja2 = "^3.1.4"
+pydantic = "^2.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

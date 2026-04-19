@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: portfolio-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./info.yaml:/app/info.yaml:ro
+    environment:
+      - INFO_PATH=/app/info.yaml
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: portfolio-frontend
+    depends_on:
+      - backend
+    # Used only for dev if needed, Nginx serves it in production
+
+  nginx:
+    build: ./nginx
+    container_name: portfolio-nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - frontend

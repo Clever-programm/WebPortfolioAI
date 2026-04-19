@@ -1,0 +1,74 @@
+base_info:
+  name: "Igor Tsaregorodtsev"
+  title: "Backend/ML Engineer, Python Developer."
+  about: "I'm a backend engineer, my main focus is on web development and AI integration. Also I have expirience in project management and team leading."
+
+contacts:
+  email: "tsaregorodtsevigorek@yandex.ru"
+  phone: "+79370606752"
+  location: "Russia, Samara"
+  github: "https://github.com/Clever-prohramm"
+
+soft_skills:
+  - "Quick Learning"
+  - "Team Leadership"
+  - "Problem Solving"
+  - "Effective Communication"
+  - "Time Management"
+
+hard_skills:
+  - "Python (FastAPI, LangChain, Aiogram, PyQt)"
+  - "C++ (basic)"
+  - "Java (Android)"
+  - "C# (basic)"
+  - "JavaScript/TypeScript (basic)"
+  - "HTML/CSS (basic)"
+  - "Docker"
+  - "PostgreSQL"
+  - "Redis"
+  - "Git"
+  - "Linux (Ubuntu)"
+  - "English: Intermediate"
+
+pet_projects: 
+  - name: "AI Text Analyser (finished)"
+    description: "A web application that uses AI to analyze text. This project was made for learning integration cloud LLM API (Gigachat)."
+    technologies: ["Python", "FastAPI", "LangChain", "Gigachat (GigaChain)"]
+    link: "https://github.com/Clever-programm/ai_text_analyser"
+  - name: "PyTorial (finished)"
+    description: "A desktop platform for programming courses. This project was made for learning desktop GUI development and using Google Firebase services."
+    technologies: ["Python", "PyQt", "Firebase", "Windows"]
+    link: "https://github.com/Clever-programm/PyTorial"
+  - name: "Portfolio (finished)"
+    description: "Portfolio website. Made using Antigravity AI. This project was made for getting experience in creating project fully by AI."
+    technologies: ["Python", "FastAPI", "jinja2", "Docker"]
+    link: ""
+  - name: "System of food supply control (active)"
+    description: "Web-service for controlling of food supply in bakeries. This project was made for getting experience in developing business-applications with complex logic and planning algorithms."
+    technologies: ["Python", "FastAPI", "Docker", "PostgreSQL", "JavaScript", "HTML", "CSS"]
+    link: "https://github.com/Clever-programm/OPI_SURPP"
+  - name: "ML model for text generation (active)"
+    description: "Model training scripts for generation texts. This project was made for getting experience in ML and LLM."
+    technologies: ["Python", "PyTorch", "HuggingFace"]
+    link: "https://github.com/Clever-programm/ML_model"
+  - name: "Cleverlytunnel (finished)"
+    description: "Simple game for Android with different game mechanics. This project was made for getting experience in mobile development."
+    technologies: ["Java", "Android"]
+    link: "https://github.com/Clever-programm/Cleverlytunnel"
+
+large_projects:    
+  - name: "SmartResearch (active)"
+    description: "Web-service with AI-assistant for working with projects, researches and scientific works. This project was made for learning hard pipelines of ML/AI development."
+    technologies: ["Python", "FastAPI", "LangChain", "LangGraph", "ChromaDB", "LMStudio", "Docker", "PostgreSQL"]
+    link: "https://github.com/Clever-programm/SmartResearch"
+
+work_experience:
+  - role: "Junior Backend/ML Engineer"
+    company: "ГК 'Генезис Знаний'"
+    period: "August 2025 - November 2025"
+    description: "Develop AI-Archiver for working with large volumes of normative documents. Use FastAPI, Docker, LangChain, ChromaDB, Gigachat (GigaChain). Database refactoring: adding new tables for intelectual system of resourse control."
+
+education:
+  - degree: "Bachelor of Programming Engineering"
+    institution: "Samara State Technical University"
+    period: "2024 - 2028"

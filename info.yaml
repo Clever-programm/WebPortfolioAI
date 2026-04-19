@@ -42,7 +42,7 @@ pet_projects:
   - name: "Portfolio (finished)"
     description: "Portfolio website. Made using Antigravity AI. This project was made for getting experience in creating project fully by AI."
     technologies: ["Python", "FastAPI", "jinja2", "Docker"]
-    link: ""
+    link: "https://github.com/Clever-programm/WebPortfolioAI"
   - name: "System of food supply control (active)"
     description: "Web-service for controlling of food supply in bakeries. This project was made for getting experience in developing business-applications with complex logic and planning algorithms."
     technologies: ["Python", "FastAPI", "Docker", "PostgreSQL", "JavaScript", "HTML", "CSS"]

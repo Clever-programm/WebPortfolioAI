@@ -1,4 +1,4 @@
-# Dynamic Portfolio Application
+# Dynamic Portfolio Application (Made fully by AI)
 
 A fully responsive, containerized, and highly customizable personal portfolio website. This application dynamically generates your entire portfolio and a beautifully styled PDF resume from a single `info.yaml` configuration file.
 
